@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brett's Calendar</title>
+        <link rel="icon" type="image/png" href="screenshots/logo.png">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Brett's Calendar!</h1>
+            <img
+                    src="screenshots/sched.jpg"
+                    alt="meme"
+                    width="250"
+            />
+            <nav>
+              <ul>
+                <li><a href="#Friday">Friday(04/09/21)</a></li>
+                <li><a href="#Saturday">Saturday(04/10/21)</a></li>
+                <li><a href="#Sunday">Sunday(04/11/21)</a></li>
+              </ul>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <section>
+                <h2>Meme of the Week</h2>
+                <video width=650 height=400 controls>
+                    <source src="screenshots/NOT THE NAVY!.mp4" type="video/mp4">
+                </video>
+            </section>
+            <hr>
+            <section>
+                <h2>Song of the Week</h2>
+                <audio controls>
+                    <source src="screenshots/Rush - 2112 The Temples Of Syrinx (Lyric Video).mp3">
+                </audio>
+                <br>
+                <i><em>This Song smacks- I'm serious tutors give it a listen</em></i>
+            </section>
+            <hr>
+            <span style="color:red">Past 3 days!</span>
+            <section>
+                
+                <h2 id="Friday">Friday's Activities</h2>
+                <h3>Calm before the storm</h3>
+                <div>
+                    <details>
+                        <summary>What Happened?</summary>
+                        <p>Had to wake up early for discussion (lame). After that day went well- just chilled and watched some 
+                            youtube videos. (Prob should've done this lab in all that time XD). Then I did some rush stuff for my
+                            frat and ended the day on a good note :)
+                        </p>
+                    </details>
+                </div>
+                <div>
+                    <details>
+                        <summary>My Day Ranked</summary>
+                        <p>Pretty Good day. Little did he know what was coming</p>
+                    </details>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2 id="Saturday">Saturday's Activities</h2>
+                <h3>The start of the crazy weekend!</h3>
+                <div>
+                    <details>
+                        <summary>What Happened?</summary>
+                        <p>Slept in on accident (classic me). But woke up in time to take care of some family buisness. After that, I then 
+                            reviewed my group's meeting that I missed due earlier in the day (because of the fam stuff), and gave my feedback
+                            and did everything I needed to do for the group. I then got some other school work done- but literally forgot about this
+                            lab <b><strong>LMAO</strong></b>.
+                            <em>Sadge</em>
+                        </p>
+                    </details>
+                </div>
+                <div>
+                    <details>
+                        <summary>My Day Ranked</summary>
+                        <p>Not that good. The fam stuff was rough and I felt bad about missing my first 110
+                            meeting(even though they knew i couldn't make it and let them know well in adavnce, i stil
+                            felt like a bad team memeber :( ). But you can't have good days with out bad ones!
+                        </p>
+                    </details>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2 id="Sunday">Sunday's Activities</h2>
+                <h3>FULL ON CRAZY DAY!!!</h3>
+                <div>
+                    <details>
+                        <summary>What Happened?</summary>
+                        <a href="https://giphy.com/gifs/text-street-popkey-1EghTrigJJhq8">Literally me RN</a>
+                        <p>Oh lord. What a day. But I knew it was gonna be a lot. After waking up and making a quick breakfast, I hopped
+                            in a meeting for my AIP class 12-2. Then I had a meeting for a eCamp I am help running. 2-5 (You see where this is going right?).
+                            Then I had tutor horus 5-7:30 (27 tickets, was busy the whole time :) ). Then i had a frat meeting 8-9. Now I am panicking cause I forgot to
+                            do this lab :)
+                        </p>
+                    </details>
+                </div>
+                <div>
+                    <details>
+                        <summary>My Day Ranked</summary>
+                        <p>On Paper sounds bad right? Its not my favorite day, but I am enjoying it more than I thought tbh. It would be average I guess.
+                        </p>
+                    </details>
+                </div>
+            </section>
+            <h2>Add Journal Entry</h2>
+            <form>
+                <fieldset>
+                    <label for="date">Date: </label>
+                    <input type="date" id="date">
+                    <br>
+                    <label for="feel">What color you feeling?</label>
+                    <input list="fe" id="feel">
+                    <datalist id="fe">
+                        <option value="Red">
+                        <option value="Blue">
+                        <option value="Green">
+                        <option value="Yellow">
+                    </datalist>
+                    <br>
+                    <label for="">How you feeling?</label>
+                    <select name="How was the day" id="feel">
+                        <option value="awful">Awful</option>
+                        <option value="bad">Bad</option>
+                        <option value="meh">Meh</option>
+                        <option value="Solid">Solid</option>
+                        <option value="Great">Great</option>
+                        <option value="Awesome">Awesome</option>
+                        <option value="THE BEST DAY EVER">THE BEST DAY EVER</option>
+                    </select>
+                    <br>
+                    <input type="radio"><label>Ate Breakfast</label>
+                    <input type="radio"><label>No Breakfast</label>
+                    <br>
+                    <label for="Thoughts">Thoughts?</label>
+                    <textarea id="Thoughts" rows="1" cols="100"></textarea>
+                    <br>
+                    <label for="Thoughts2">Extra Thougths?</label>
+                    <input type="text" id="Thoughts2">
+                    <br>
+                    <label for="Day Over">Is your day over?</label>
+                    <input type="checkbox" id="Day Over">
+                </fieldset>
+                <button>Done</button>
+            </form>
+        </main>
+        <hr>
+        <h4> Past 3 days Ranked- best to worst</h4>
+        <ol>
+            <li>Friday</li>
+            <li>Sunday</li>
+            <li>Saturday</li>
+         </ol>
+        <hr>
+        <footer>This was made with the help of CS 110 at UCSD- yall the best!</footer>
+        
+    </body>
+</html>
