@@ -3,7 +3,7 @@ h1 {
     /* color way 4 */
     color: red;
     /* unique abs unit 1*/
-    /* margin long */
+    /* margin long*/
     margin-left: 800px;
     /* Font used */
     font-family: 'Caveat', cursive;
@@ -17,6 +17,7 @@ h2 {
 
 }
 h3 {
+    /* making some chage */
     /* unique abs unit 3*/
     margin: auto 1mm;
     /* color way 2 */
